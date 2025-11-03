@@ -2,9 +2,6 @@ web/constants.js
 
 .coverage
 coverage.xml
-*_result.xml
-*_result.html
-*_result.txt
 coverage/
 test/e2e/cypress/screenshots
 test/e2e/cypress/videos
