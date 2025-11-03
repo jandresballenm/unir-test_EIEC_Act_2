@@ -1,5 +1,22 @@
-# Repo para EIEC - DevOps - UNIR
+# Repo para EIEC - DevOps - UNIR Desarrollo Actividad 2
 
-Este repositorio incluye un proyecto sencillo para demostrar los conceptos de pruebas unitarias, pruebas de servicio o de API y pruebas E2E o de GUI. El objetivo es que el alumno entienda estos conceptos, por lo que el código y la estructura del proyecto son especialmente sencillos.
+Este repositorio es un fork de https://github.com/jafraileni/unir-test para el desarrollo de la actividad 2 de la materia Entornos de Integración y Entrega Continua del Master DevOps de UNIR.
+Se amplió la funcionalidad de la calculadora con 7 operaciones, suma, resta, multiplicación, divisón, potencia, raíz cuadrada y logaritmo en base 10.
+Se configuraron pruebas unitarias, auxiliares y API REST.
+Se ajustó el archivo Makefile para ejecución bajo sistema operativo Windows, con la aplicación Visual Studio Code y haciendo las ejecuciones en PowerShell.
+Se agregó a este repositorio el resultado de las pruebas, se encuentran los archivos xml y html correspondientes.
 
-El Makefile ofrece comandos para facilitar la creación de imágenes de Docker y la ejecución de las pruebas. El único requisito es tener Docker instalado. Los comandos funcionarán en MacOS y Linux. En caso de usar Windows, será necesario adaptarlos o ejecutarlos en una máquina virtual Linux con Docker instalado.
+Archivos modificados (7):
+app/api.py
+app/calc.py
+app/util.py
+test/rest/api_test.py
+test/unit/calc_test.py
+test/unit/uti_test.py
+Makefile
+
+Archivos agregados (4):
+results/api_result.html
+results/api_result.xml
+results/unit_result.html
+results/unit_result.xml
